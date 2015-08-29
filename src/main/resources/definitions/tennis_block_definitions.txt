@@ -1,0 +1,9 @@
+# default values for blocks
+default height:25 width:50 stroke:color(black)
+
+# block definitions
+bdef symbol:r hit_points:1 fill:image(block_images/racket.jpg)
+bdef symbol:b hit_points:2 fill:image(block_images/tennisBall.jpg) fill-2:image(block_images/racket.jpg)
+
+# spacers definitions
+sdef symbol:- width:50
